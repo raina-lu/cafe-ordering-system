@@ -1,0 +1,68 @@
+.cafe-menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .item-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .item-price {
+    color: #666;
+  }
+  
+  .item-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ff4d4d;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .bill {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .bill h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .bill p {
+    margin: 5px 0;
+  }
